@@ -11,14 +11,14 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": [u"\u212B", u"\u00C5"],
+            "answer": true,
+            "explanation": "compare(U+212B, U+00C5)=?"
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": [u"\u212B", u"A"],
+            "answer": false,
+            "explanation": 'compare(U+212B,"A")=?'
         }
     ],
     "Extra": [

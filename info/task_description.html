@@ -13,11 +13,11 @@
 
 <p><i>( Explain input and output values )</i></p>
 <p>
-    <strong>Input: </strong> Two arguments. Both are int
+    <strong>Input: </strong> Two arguments. Both are unicode string
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> Bool.
 </p>
 
 
@@ -28,8 +28,8 @@
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
+checkio(u"\u212B", u"\u00C5") == True
+checkio(u"\u212B", u"A") == False
     </pre>
 </div>
 
