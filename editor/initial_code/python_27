@@ -1,6 +1,6 @@
 def checkio(a, b):
     """
-        sums two passed arguments
+        compares two string wrt. to equivalence
     """
     return None
 
