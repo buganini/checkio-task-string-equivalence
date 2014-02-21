@@ -12,25 +12,25 @@ TESTS = {
     "Basics": [
         {
             "input": [u"\u212B", u"\u00C5"],
-            "answer": true,
+            "answer": True,
             "explanation": "compare(U+212B, U+00C5)=?"
         },
         {
             "input": [u"\u212B", u"A"],
-            "answer": false,
+            "answer": False,
             "explanation": 'compare(U+212B,"A")=?'
         }
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [u"\u212B", u"\u00C5"],
+            "answer": True,
+            "explanation": "compare(U+212B, U+00C5)=?"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": [u"\u212B", u"A"],
+            "answer": False,
+            "explanation": 'compare(U+212B,"A")=?'
         }
     ]
 }
