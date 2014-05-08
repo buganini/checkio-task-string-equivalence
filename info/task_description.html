@@ -1,5 +1,34 @@
+<style type="text/css">
+	#ce {
+		border-collapse: collapse;
+	}
+	#ce tr, #ce td {
+		border: solid 1px black;
+		text-align: center;
+	}
+</style>
 <p>
     <i>In unicode, a glyph could be represented in different binary form, and there is only one best way to check the equivalence.</i>
+</p>
+
+<p>
+    Due to historical reason, some glyph were brought into unicode multiple times with same or different forms, therefore the problem of equivalence emerged.
+</p>
+
+<p>
+    <table id="ce">
+    <tbody>
+    	<tr><th>Combining sequence</th><td>Ç</td><td>C+◌̧</td></tr>
+    	<tr><th>Ordering of combining marks</th><td>q + ◌̇ + ◌̣ </td><td>q + ◌̣ + ◌̇</td></tr>
+    	<tr><th>Hangul</th><td>가</td><td>ᄀ + ᅡ</td></tr>
+    	<tr><th>Singleton</th><td>Ω (U+03A9)</td><td>Ω (U+2126)</td></tr>
+    </tbody>
+    <caption align="bottom">Canonical equivalence cases defined in <a href="http://www.unicode.org/reports/tr15/">UAX #15</a></caption>
+    </table>
+</p>
+
+<p>
+    Canonical equivalent glyphs must be mutual exchangable under any circumstance, so cyrillic "A" is not equivalent to latin "A".
 </p>
 
 <p>
