@@ -144,7 +144,7 @@ TESTS = {
         },
         {
             "input": [u"\uB3A8", u"\u1103\u1168"],
-            "answer": False,
+            "answer": True,
         },
     ],
     "Singleton": [
