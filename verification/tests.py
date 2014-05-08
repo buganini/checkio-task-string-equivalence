@@ -131,7 +131,11 @@ TESTS = {
     ],
     "Hangul": [
         {
-            "input": [u"\uB3A9", u"\u1103\u1168"],
+            "input": [u"\uB3A9", u"\u1103\u1168\u11A8"],
+            "answer": True,
+        },
+        {
+            "input": [u"\uB3BC", u"\u1103\u1168\u11BB"],
             "answer": True,
         },
         {
