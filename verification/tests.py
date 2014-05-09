@@ -7,6 +7,11 @@ Each test is dict with
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
 
+"""
+import unicodedata
+def checkio(a, b):
+    return unicodedata.normalize("NFC", a)==unicodedata.normalize("NFC", b)
+"""
 
 TESTS = {
     "Combining sequence": [
