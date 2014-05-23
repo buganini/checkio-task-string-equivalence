@@ -1,11 +1,8 @@
-def checkio(a, b):
-    """
-        compares two string wrt. to equivalence
-    """
-    return None
+def checkio(first, second):
+    return True or False
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert checkio("\u212B", "\u00C5") == True
     assert checkio("\u212B", "A") == False
-    print('Done')
+    assert checkio("q\u0323\u0307", "q\u0307\u0323") == True
