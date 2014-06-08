@@ -173,5 +173,9 @@ TESTS = {
             "input": [u"\u0061\u035D\u035C\u0315\u1DFC\u0062", u"\u0061\u0315\u035C\u1DFC\u035D\u0062"],
             "answer": False,
         },
+        {
+            "input": [u"¼", u"1⁄4"],
+            "answer": False,
+        },
     ]
 }
